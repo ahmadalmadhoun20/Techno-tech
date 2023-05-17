@@ -717,9 +717,54 @@ iframe {
     .team_about2 i {
         position: absolute;
         top: 5px;
-        left: 140px;
+        left: 120px;
         font-size: 25px;
         color: rgb(89, 89, 219);
+    }
+    .about_Services .card_Services {
+        width: 80%;
+        margin-left: 50px;
+    }
+    .about_Services .card1_Services {
+        width: 80%;
+        margin-left: 50px;
+    }
+    .about_Services .card_Services img {
+        width: 150px;
+        margin-left: 120px;
+        margin-top: 20px;
+    }
+    .about_Services .card1_Services img {
+        width: 150px;
+        margin-left: 120px;
+        margin-top: 20px;
+    }
+    .hero_Services .text_Services form input{
+        margin-top: 5%;
+        margin-left: 10%;
+        border-radius: 5px;
+        border: 2px solid #918f8f;
+        width: 400px;
+        height: 50px;
+        
+    }
+    .hero_Services .text_Services form button {
+        width: 150px;
+        height: 40px;
+        margin-left: -160px;
+        margin-top: -5px;
+    }
+    header .menu .bars{
+        background: #00000000;
+        color: #000000;
+        width: 40px;
+        height: 40px;
+    
+    }
+    .hero_about img{
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
     }
 }
     
