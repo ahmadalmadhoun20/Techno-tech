@@ -7,6 +7,7 @@ body {
 a {
     text-decoration: none;
 }
+/* ******************Stat header************************************ */
 header .logo img {
     width: 60px;
     height: 60px;
@@ -17,6 +18,7 @@ header {
 }
 header a {
     color: #383333;
+    transition: all 0.5s ease;
 }
 header nav {
     display: flex;
@@ -38,11 +40,15 @@ header .menu ul li {
     font-size: 20px;
     font-weight: bold;
     margin-left: 20px;
+    transition: all 0.5s ease;
 }
+
 header .content a {
     font-size: 20px;
+    transition: all 0.5s ease;
     
 }
+
 header .content a i {
     margin-right: 20px;
 }
@@ -59,8 +65,559 @@ header .content button:hover {
     color: #fff;
     border: 2px solid #fa7d09bf;
 }
+/* ******************end header************************************ */
 
 
+/* ******************Stat hero************************************ */
+.hero img {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+}
+
+/* ******************end header************************************ */
+
+/* ******************Stat about************************************ */
+
+
+.about {
+    margin-top: 70px;
+    position: relative;
+}
+.about h2 {
+    text-align: center;
+}
+.about .about_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.team_about1 img {
+    width: 90%;
+    margin-right: 100px;
+    border-radius: 10px;
+}
+.team_about2 {
+    width: 70%;
+}
+.team_about2 h3 {
+    margin-left: 50px;
+}
+.team_about2 i {
+    position: absolute;
+    top: 159px;
+    left: 700px;
+    font-size: 25px;
+    color: rgb(89, 89, 219);
+}
+
+/* ******************Stat about************************************ */
+
+
+/* ******************Stat about2************************************ */
+.about2 {
+    margin-top: 100px;
+    position: relative;
+    background: #eee;
+}
+.about2 .text1 {
+    margin-top: 20px;
+}
+.about2 i {
+    text-align: center;
+    margin-left: 160px;
+    font-size: 35px;
+    color: red;
+}
+.about3 i {
+    text-align: center;
+    margin-left: 160px;
+    font-size: 35px;
+    color: red;
+}
+.about2 h4 {
+    text-align: center;
+    margin-top: 20px;
+}
+.about2 p {
+    text-align: center;
+    margin-top: 5px;
+    color: #8a8585;
+}
+
+.about3 {
+    margin-top: 80px;
+}
+
+
+.about4 {
+    margin-top: 100px;
+}
+.about4 h2 {
+    text-align: center;
+}
+.about4 .text3 {
+    margin-top: 50px;
+}
+.about4 .text3 #i4 {
+    text-align: center;
+    margin-right: 160px;
+    font-size: 50px;
+    color: #f44336;
+}
+.about4 .text3 h4 {
+    text-align: center;
+}
+.about4 .text3 p {
+    text-align: center;
+    width: 90%;
+}
+.about4 .text3 #i5 {
+    text-align: center;
+    margin-right: 160px;
+    font-size: 50px;
+    color: #4caf50;
+}
+.about4 .text3 h4 {
+    text-align: center;
+}
+.about4 i {
+    text-align: center;
+    margin-left: 160px;
+}
+.about4 .text3 p {
+    text-align: center;
+    width: 90%;
+
+}
+.about4 .text3 h4 {
+    margin-top: 20px;
+}
+.about4 .text4 h4 {
+    margin-top: 20px;
+}
+.about4 .text3 #i6 {
+    text-align: center;
+    margin-right: 160px;
+    font-size: 50px;
+    color: #ff9800;
+}
+.about4 .text3 h4 {
+    text-align: center;
+}
+.about4 .text3 p {
+    text-align: center;
+    width: 90%;
+}
+.about4 .text4 {
+    margin-top: 100px;
+}
+.about4 .text4 #i4 {
+    text-align: center;
+    margin-right: 160px;
+    font-size: 50px;
+    color: #2196f3;
+}
+.about4 .text4 h4 {
+    text-align: center;
+}
+.about4 .text4 p {
+    text-align: center;
+    width: 90%;
+}
+.about4 .text4 #i5 {
+    text-align: center;
+    margin-right: 160px;
+    font-size: 50px;
+    color: #ffc107;
+}
+.about4 .text4 h4 {
+    text-align: center;
+}
+.about4 .text4 p {
+    text-align: center;
+    width: 90%;
+}
+.about4 .text4 #i6 {
+    text-align: center;
+    margin-right: 160px;
+    font-size: 50px;
+    color: #333;
+}
+.about4 .text4 h4 {
+    text-align: center;
+}
+.about4 .text4 p {
+    text-align: center;
+    width: 90%;
+}
+/* ******************Stat about 234************************************ */
+
+/* ******************Stat star************************************ */
+.star {
+    margin-top: 50px;
+    background:#03a9f4 ;
+    height: 200px;
+}
+.star h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.star  {
+    position: relative;
+    height: 200px;
+}
+.star button {
+    background: #fff;
+    color: #000;
+    padding: 10px 50px;
+    border: 2px solid #fff;
+    position: absolute;
+    right: 550px;
+    top: 130px;
+}
+.star h2 {
+    padding-top: 50px;
+    color: #fff;
+}
+/* ******************end star************************************ */
+
+/* ******************Stat footer************************************ */
+footer {
+    background: #eee;
+
+}
+footer h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+footer p {
+    text-align: center;
+}
+footer .icon {
+    text-align: center;
+    font-size: 20px;
+}
+/* ******************end header************************************ */
+
+.hero_about img{
+    width: 100%;
+    height: 500px;
+}
+
+.page-title {
+    background: #03a9f4;
+    
+}
+.page-title h3 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.section {
+    margin-top: 50px;
+}
+.section i {
+    font-size: 30px;
+    color: #03a9f4;
+}
+
+
+.hero_contact img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+iframe {
+    margin-top: 150px;
+}
+.hero_team img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.about_team {
+    margin-top: 50px;
+}
+.about_team .iteam_team_img img {
+    width: 400px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.about_team .iteam_team_text {
+    margin-top: 20px;
+}
+.about_team .iteam_team_text i {
+    color: #ff9800;
+}
+.about_team .iteam_team_text h5 {
+    font-weight: bold;
+}
+
+
+.about_team .iteam_team_img1 img {
+    width: 400px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 10px;
+    
+ 
+}
+.about_team .iteam_team_text1 {
+    margin-top: 20px;
+}
+.about_team .iteam_team_text1 i {
+    color: #ff9800;
+}
+.about_team .iteam_team_text1 h5 {
+    font-weight: bold;
+}
+.about_team .iteam_team_img1 {
+    margin-top: 60px;
+}
+.about_team .iteam_team_text1 {
+    margin-top: 60px;
+}
+
+
+
+
+
+.about_team .iteam_team_img2 img {
+    width: 400px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 10px;
+    
+ 
+}
+.about_team .iteam_team_text2 {
+    margin-top: 20px;
+}
+.about_team .iteam_team_text2 i {
+    color: #ff9800;
+}
+.about_team .iteam_team_text2 h5 {
+    font-weight: bold;
+}
+.about_team .iteam_team_img2 {
+    margin-top: 60px;
+}
+.about_team .iteam_team_text2 {
+    margin-top: 60px;
+}
+
+
+
+.about_team .iteam_team_img3 img {
+    width: 400px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 10px;
+    
+ 
+}
+.about_team .iteam_team_text3 {
+    margin-top: 20px;
+}
+.about_team .iteam_team_text3 i {
+    color: #ff9800;
+}
+.about_team .iteam_team_text3 h5 {
+    font-weight: bold;
+}
+.about_team .iteam_team_img3 {
+    margin-top: 60px;
+}
+.about_team .iteam_team_text3 {
+    margin-top: 60px;
+}
+
+
+
+
+
+.about_team .iteam_team_img4 img {
+    width: 400px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 10px;
+    
+ 
+}
+.about_team .iteam_team_text4 {
+    margin-top: 20px;
+}
+.about_team .iteam_team_text4 i {
+    color: #ff9800;
+}
+.about_team .iteam_team_text4 h5 {
+    font-weight: bold;
+}
+.about_team .iteam_team_img4 {
+    margin-top: 60px;
+}
+.about_team .iteam_team_text4 {
+    margin-top: 60px;
+}
+
+
+.about_team .iteam_team_img5 img {
+    width: 400px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 10px;
+    
+ 
+}
+.about_team .iteam_team_text5 {
+    margin-top: 20px;
+}
+.about_team .iteam_team_text5 i {
+    color: #ff9800;
+}
+.about_team .iteam_team_text5 h5 {
+    font-weight: bold;
+}
+.about_team .iteam_team_img5 {
+    margin-top: 60px;
+}
+.about_team .iteam_team_text5 {
+    margin-top: 60px;
+}
+
+
+
+
+.about_team .iteam_team_img6 img {
+    width: 400px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 10px;
+    
+ 
+}
+.about_team .iteam_team_text6 {
+    margin-top: 20px;
+}
+.about_team .iteam_team_text6 i {
+    color: #ff9800;
+}
+.about_team .iteam_team_text6 h5 {
+    font-weight: bold;
+}
+.about_team .iteam_team_img6 {
+    margin-top: 60px;
+}
+.about_team .iteam_team_text6 {
+    margin-top: 60px;
+}
+.about_contact {
+    margin-top: 100px;
+}
+.iteam_contact img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.hero_Services {
+    margin-top: 50px;
+}
+
+.hero_Services .text_Services h2 {
+    text-align: center;
+}
+.hero_Services .text_Services form input{
+    margin-top: 5%;
+    margin-left: 30%;
+    border-radius: 5px;
+    border: 2px solid #918f8f;
+    width: 500px;
+    height: 50px;
+    
+}
+.hero_Services .text_Services form button {
+    width: 200px;
+    height: 40px;
+    margin-left: -210px;
+    margin-top: -5px;
+}
+.about_Services {
+    margin-top: 50px;
+}
+.about_Services .card_Services img {
+    width: 150px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.about_Services .card_Services h5 {
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+.about_Services .card_Services {
+    width: 220px;
+    background: #eee;
+    border-radius: 10px;
+}
+
+
+.about_Services .card1_Services img {
+    width: 150px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.about_Services .card1_Services h5 {
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+.about_Services .card1_Services {
+    width: 220px;
+    background: #eee;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.about2_Services {
+    margin-top: 100px;
+}
+.about2_Services  h2 {
+    text-align: center;
+}
+.card-design {
+    margin-top: 100px;
+}
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon-design i {
+    color: #ff9800;
+}
+.card-body h5 {
+    text-align: left;
+}
+.design1 {
+    margin-top: 100px;
+}
+
+.card-design1 img {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+
+
+
+
+
+/* end about2 */
 @media (max-width: 767px) {
     header .menu ul {
         display: block;
@@ -84,9 +641,10 @@ header .content button:hover {
     }
     header .menu .bars{
         display: block;
-        margin-left: 300px;
+        margin-left: 250px;
         border: 2px solid #827a7a;
         border-radius: 5px;
+        font-size: 20px;
     }
     header {
         position: relative;
@@ -107,6 +665,61 @@ header .content button:hover {
         background: #eee;
         top: 340%;
         display: none;
+    }
+    .hero img {
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+    }
+    iframe {
+        width: 100%;
+    }
+    .about .about_flex {
+        display: block;
+    }
+    .team_about1 img {
+        margin-left: 20px;
+        width: 350px;
+    }
+    .team_about2 h3 {
+        text-align: center;
+        margin-top: 15px;
+    }
+    .team_about2 {
+        width: 100%;
+    }
+    .team_about2 p {
+        text-align: center;
+    }
+    .about2 i {
+        text-align: center;
+        
+    }
+    .star {
+        position: relative;
+    }
+    .star button {
+        background: #fff;
+    color: #000;
+    padding: 5px 30px;
+    border: 2px solid #fff;
+    position: absolute;
+    right: 130px;
+    top: 140px;
+        
+    }
+    footer {
+        width: 100%;
+    }
+    iframe {
+        width: 100%;
+    }
+    .team_about2 i {
+        position: absolute;
+        top: 5px;
+        left: 140px;
+        font-size: 25px;
+        color: rgb(89, 89, 219);
     }
 }
     
